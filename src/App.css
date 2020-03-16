@@ -1,0 +1,178 @@
+html {
+    min-height: 100vh;
+    min-width: 100vh;
+}
+body {
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+#root {
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+.FP {
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+.Main {
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+.FPLeft {
+    background-color: brown;
+    min-height: 100vh;
+    min-width: 65%;
+    float: left;
+}
+
+.FPRight {
+    background-color: black;
+    min-height: 100vh;
+    min-width: 35%;
+    float: left;
+}
+.fpleftmovie {
+    min-width: 100%;
+    min-height: 50vh;
+    border: solid 1px;
+    background-image: url("https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+}
+.boxouter {
+    height: 35vh;
+    width: 45%;
+    background-color: black;
+    margin: 5vh;
+    opacity: 0.7;
+    float: left;
+}
+.signinbut {
+    float: left;
+    margin-left: 30%;
+    margin-top: 5%;
+    background-color: transparent;
+    color: white;
+    border: white solid 2px;
+}
+.signupbut {
+    float: left;
+    margin-left: 10px;
+    margin-top: 5%;
+    background-color: transparent;
+    color: white;
+    border: white solid 2px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: black;
+    color: white;
+}
+.navlinks {
+    width: 40%;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.signupbox {
+    width: 30%;
+    margin-left: 30%;
+}
+.noaccount {
+    text-align: right;
+    font-size: 14px;
+    color: red;
+    font-weight: 700;
+}
+.whitehr {
+    opacity: 0.2;
+}
+.hror {
+    color: grey;
+    float: left;
+    width: 46%;
+    margin-top: 25px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+#ortext {
+    float: left;
+}
+#emailup{
+    width: 98%;
+    box-sizing: border-box;
+    border: none;
+    height: 40px;
+    margin-bottom: 30px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -webkit-box-shadow:0 0 5px #666 inset;
+    -moz-box-shadow:0 0 5px #666 inset;
+    box-shadow:0 0 5px #666 inset;
+}
+#passup{
+    width: 98%;
+    box-sizing: border-box;
+    border: none;
+    height: 40px;
+    margin-bottom: 30px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -webkit-box-shadow:0 0 5px #666 inset;
+    -moz-box-shadow:0 0 5px #666 inset;
+    box-shadow:0 0 5px #666 inset;
+}
+#subup {
+    width: 98%;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+}
+#forgotpass{
+    color: red;
+    font-weight: 700;
+}
+#birthday {
+    width: 98%;
+    box-sizing: border-box;
+    border: none;
+    height: 40px;
+    margin-bottom: 30px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -webkit-box-shadow:0 0 5px #666 inset;
+    -moz-box-shadow:0 0 5px #666 inset;
+    box-shadow:0 0 5px #666 inset;
+}
+.genderin {
+    width: 100%;
+}
+.gender {
+    margin-right: 20%;
+}
+.innerbox {
+    color: white;
+    margin: 20px;
+}
+.watchbut {
+    width: 35%;
+    background-color: red;
+    border: 1px solid red;
+    height: 35px;
+    color: white;
+    font-weight: bolder;
+}

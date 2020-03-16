@@ -1,0 +1,13 @@
+.FPLeft {
+    background-color: brown;
+    height: 100%;
+    width: 65%;
+    float: left;
+}
+
+.FPRight {
+    background-color: cyan;
+    height: 100%;
+    width: 35%;
+    float: left;
+}
